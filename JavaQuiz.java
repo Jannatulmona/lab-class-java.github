@@ -3,8 +3,9 @@ public class JavaQuiz{
   public static void main(String[] args) {
    Scanner obj = new Scanner(System.in);
    int score=0,input;
+    System.out.println("Welcome to Quiz");
 
-  System.out.println("2. What is the default value of a boolean variable in Java ?");
+  System.out.println(" What is the default value of a boolean variable in Java ?");
   System.out.println("1.true   2.false   3.null");
    input = obj.nextInt();
   if( input==2)
@@ -73,7 +74,7 @@ System.out.println("What is the size of a double in Java?");
 
 
    System.out.println("\nQuiz Over!");
-        System.out.println("Your final score is: " + score + " out of 5");
+        System.out.println("Your final score is: " + score + " out of 25");
 
 
 
